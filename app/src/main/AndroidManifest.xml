@@ -11,7 +11,9 @@
         android:roundIcon="@drawable/ic_placeholder"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.PlacesActivity"></activity>
+        <activity android:name=".ui.PlacesActivity">
+
+        </activity>
         <activity android:name=".ui.PermissionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +28,9 @@
 
         <activity
             android:name=".ui.MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps">
+
+        </activity>
     </application>
 
 </manifest>
