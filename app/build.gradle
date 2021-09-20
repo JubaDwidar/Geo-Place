@@ -91,18 +91,6 @@ dependencies {
 
 
 
-    // Local Unit Tests
-
-
-    // Instrumented Unit Tests
-
-
-
-    // Espresso
-  //  def androidx_test_espresso = '3.4.0'
-  //  androidTestImplementation "androidx.test.espresso:espresso-contrib:$androidx_test_espresso"
-  //  implementation "androidx.test.espresso:espresso-idling-resource:$androidx_test_espresso"
-
 
 
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
