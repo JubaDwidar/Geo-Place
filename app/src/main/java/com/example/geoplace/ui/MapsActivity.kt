@@ -69,7 +69,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(this)
         mapView = mapFragment.requireView()
 
-        Places.initialize(this, getString(string.google_maps_key));
+        Places.initialize(this, "AIzaSyAwsEWZavp2cjDnC6u-JHdLy8EayA8TYlg")
         placesClient = Places.createClient(this)
         val token = AutocompleteSessionToken.newInstance()
 
